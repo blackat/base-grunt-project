@@ -1,0 +1,7 @@
+#Intellij files
+.idea/
+*.iml
+
+#Dependency folder
+bower_components/
+node_modules/
