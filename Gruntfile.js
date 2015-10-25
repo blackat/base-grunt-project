@@ -15,7 +15,7 @@ module.exports = function (grunt) {
 
         wiredep: {
             target: {
-                src: 'client/index.html'
+                src: 'client/app/index.html'
             }
         }
     });

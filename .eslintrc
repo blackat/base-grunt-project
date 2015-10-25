@@ -23,5 +23,8 @@
         "node": true,
         "jasmine": true
     },
+    "globals": {
+        "angular": 1
+    },
     "extends": "eslint:recommended"
 }

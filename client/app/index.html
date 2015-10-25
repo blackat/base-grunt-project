@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" ng-app="app">
 <head>
     <meta charset="UTF-8">
     <title>Just A Placeholder</title>
@@ -7,9 +7,18 @@
     <!-- bower:css -->
     <!-- endbower -->
 </head>
-<body>
+<body ng-controller="Ctrl">
+{{text}}
+
 
 <!-- bower:js -->
+<script src="../bower_components/angular/angular.js"></script>
+<script src="../bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+<script src="../bower_components/ui-router/release/angular-ui-router.js"></script>
+<script src="../bower_components/angular-sanitize/angular-sanitize.js"></script>
+<script src="../bower_components/angular-resource/angular-resource.js"></script>
+<script src="../bower_components/lodash/lodash.js"></script>
 <!-- endbower -->
+<script src="app.js"></script>
 </body>
 </html>
