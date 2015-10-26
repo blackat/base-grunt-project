@@ -1,4 +1,8 @@
-angular.module('app', []).controller('Ctrl', ['$scope',function($scope){
+(function() {
+    'use strict';
 
-    $scope.text = 'just a text';
-}]);
+    angular.module('app', []).controller('Ctrl', ['$scope',function($scope){
+
+        $scope.text = 'just a text';
+    }]);
+})();
