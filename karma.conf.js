@@ -18,7 +18,7 @@ module.exports = function (config) {
             'client/bower_components/angular-mocks/angular-mocks.js',
             'client/app/app.js',
             'client/app/**/*.js',
-            'client/app/index.html'
+            'client/index.html'
         ],
 
 
