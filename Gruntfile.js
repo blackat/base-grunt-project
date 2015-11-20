@@ -103,12 +103,14 @@ module.exports = function (grunt) {
     ]);
 
     grunt.registerTask('serve', [
+        'wiredep',
         'express:dev',
         'wait',
         'express-keepalive'
     ]);
 
     grunt.registerTask('e2e', [
+        'wiredep',
         'express:dev',
         'protractor_webdriver',
         'protractor:chrome'

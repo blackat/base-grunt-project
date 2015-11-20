@@ -1,48 +1,51 @@
 {
-  "name": "base-grunt-project",
-  "version": "0.0.1",
-  "description": "Grunt project scaffolding",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/blackat/base-grunt-project.git"
-  },
-  "keywords": [
-    "grunt"
-  ],
-  "author": "Eugenio Lentini <eugenio_lentini@fastmail.fm> (http://blackat.github.io)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/blackat/base-grunt-project/issues"
-  },
-  "homepage": "https://github.com/blackat/base-grunt-project#readme",
-  "dependencies": {
-    "ejs": "^2.3.4",
-    "express": "^4.13.3"
-  },
-  "devDependencies": {
-    "eslint": "^1.7.1",
-    "grunt": "^0.4.5",
-    "grunt-contrib-jshint": "^0.11.3",
-    "grunt-contrib-uglify": "^0.9.2",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-express-server": "^0.5.1",
-    "grunt-karma": "^0.12.1",
-    "grunt-protractor-runner": "^2.1.0",
-    "grunt-protractor-webdriver": "^0.2.5",
-    "grunt-wiredep": "^2.0.0",
-    "jit-grunt": "^0.9.1",
-    "karma": "^0.13.11",
-    "karma-chrome-launcher": "^0.2.1",
-    "karma-coverage": "^0.5.3",
-    "karma-jasmine": "^0.3.6",
-    "karma-phantomjs-launcher": "^0.2.1",
-    "protractor": "^2.5.1",
-    "time-grunt": "^1.2.1"
-  },
-  "private": true
+    "name": "base-grunt-project",
+    "version": "0.0.1",
+    "description": "Grunt project scaffolding",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "update-webdriver": "node node_modules/protractor/bin/webdriver-manager update",
+        "postinstall": "bower install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/blackat/base-grunt-project.git"
+    },
+    "keywords": [
+        "grunt"
+    ],
+    "author": "Eugenio Lentini <eugenio_lentini@fastmail.fm> (http://blackat.github.io)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/blackat/grunt-project-scaffolding/issues"
+    },
+    "homepage": "https://github.com/blackat/grunt-project-scaffolding#readme",
+    "dependencies": {
+        "ejs": "^2.3.4",
+        "express": "^4.13.3"
+    },
+    "devDependencies": {
+        "bower": "^1.6.5",
+        "eslint": "^1.7.1",
+        "grunt": "^0.4.5",
+        "grunt-contrib-jshint": "^0.11.3",
+        "grunt-contrib-uglify": "^0.9.2",
+        "grunt-contrib-watch": "^0.6.1",
+        "grunt-express-server": "^0.5.1",
+        "grunt-karma": "^0.12.1",
+        "grunt-protractor-runner": "^2.1.0",
+        "grunt-protractor-webdriver": "^0.2.5",
+        "grunt-wiredep": "^2.0.0",
+        "jit-grunt": "^0.9.1",
+        "karma": "^0.13.15",
+        "karma-chrome-launcher": "^0.2.1",
+        "karma-coverage": "^0.5.3",
+        "karma-jasmine": "^0.3.6",
+        "karma-phantomjs-launcher": "^0.2.1",
+        "protractor": "^2.5.1",
+        "time-grunt": "^1.2.1",
+        "phantomjs": "^1.9.18"
+    },
+    "private": true
 }
