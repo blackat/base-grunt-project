@@ -16,6 +16,12 @@ module.exports = function (config) {
         files: [
             'client/bower_components/angular/angular.js',
             'client/bower_components/angular-mocks/angular-mocks.js',
+            'client/bower_components/angular-resource/angular-resource.js',
+            'client/bower_components/angular-sanitize/angular-sanitize.js',
+            'client/bower_components/lodash/lodash.js',
+            'client/bower_components/ui-router/release/angular-ui-router.js',
+            'client/bower_components/angular-bootstrap/ui-bootstrap.js',
+            'client/bower_components/angular-bootstrap/ui-bootstrap-tpls.js',
             'client/app/app.js',
             'client/app/**/*.js',
             'client/index.html'
